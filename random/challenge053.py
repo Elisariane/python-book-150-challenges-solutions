@@ -1,6 +1,6 @@
-# 052 Display a random integer between 1 and 100 inclusive
+# 053 Display a random fruit from a list of five fruits.
 
 import random
 
-num = random.randint(0,100)
-print(num)
+fruit = random.choice(['orange', 'apple', 'watermelon', 'peach', 'lemon'])
+print(fruit)
